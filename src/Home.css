@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+.intro_banner{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0)),linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c732cb00-be61-4d64-b8c3-99f022e7a123/eceef24d-4920-430f-988b-d2f48f8ad060/IN-en-20220620-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.sign_in_button{
+    padding:7px 10px;
+    width: 90px;
+    height: 43px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    left: 1200px;
+    color: white;
+    background: #E50914;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.netflix_title{
+    width: 170px;
+    position: relative;
+    left: 50px;
+}
+.home_title{
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+
+}
+.title1{
+    font-size: 4rem;
+    color: white;
+    width: 660px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.title1_part2{
+    position:relative;
+    left: 60px;
+}
+.title2{
+    font-size: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 81px;
+    top: 20px;
+}
+.home_para_title{
+    color: white;
+    font-size:22px;
+    width: 798px;
+    position: relative;
+    top: 37px;
+    left: -22px;
+}
+.email_title_home{
+    width: 500px;
+    height: 55px;
+    padding: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 70px;
+    left: -60px;
+}
+.email_title_home::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.email_home_btn{
+    padding-top: 2px;
+    width: 250px;
+    height: 59px;
+    position: relative;
+    left: -60px;
+    top: 75px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #D81F26;
+    cursor: pointer;
+}
+.email_home_btn:hover{
+    background-color: #E50914;
+}
+.sign_in_link,.sign_in_link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    .intro_banner{
+        background:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0)),linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,1)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c732cb00-be61-4d64-b8c3-99f022e7a123/eceef24d-4920-430f-988b-d2f48f8ad060/IN-en-20220620-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+        background-size: cover;
+        height: 103vh;
+        background-repeat: no-repeat;
+    }
+    .sign_in_button{
+        padding:7px 10px;
+        width: 90px;
+        height: 43px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 10px;
+        left: 860px;
+        color: white;
+        background: #E50914;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .home_title{
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+    }
+    .title1{
+        font-size: 3rem;
+        color: white;
+        width: 630px;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight: 700;
+    }
+    .title2{
+        font-size: 29px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: 35px;
+        top: 20px;
+    }
+    .home_para_title{
+        color: white;
+        font-size:20px;
+        width: 798px;
+        position: relative;
+        top: 37px;
+        left: -70px;
+    }
+    .email_title_home{
+        width: 500px;
+        height: 55px;
+        padding: 7px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 70px;
+        left: -120px;
+    }
+    .email_home_btn{
+        padding-top: 2px;
+        width: 250px;
+        height: 59px;
+        position: relative;
+        left: -120px;
+        top: 75px;
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
+        color: white;
+        background-color: #D81F26;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:1000px) {
+    .sign_in_button{
+        padding:7px 10px;
+        width: 90px;
+        height: 43px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 10px;
+        left: 660px;
+        color: white;
+        background: #E50914;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .home_title{
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+        width: 680px;
+    }
+    .title1{
+        font-size: 2.5rem;
+        color: white;
+        width: 420px;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight: 700;
+    }
+    .title1_part2{
+        position:relative;
+        left: 39px;
+    }
+    .title2{
+        font-size: 29px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: -5px;
+        top: 20px;
+        width: 600px;
+    }
+    .home_para_title{
+        color: white;
+        font-size:20px;
+        width: 758px;
+        position: relative;
+        top: 37px;
+        left: -100px;
+    }
+    .email_title_home{
+        width: 420px;
+        height: 55px;
+        padding: 7px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 70px;
+        left: -120px;
+    }
+}
+@media screen and (max-width:700px) {
+    .sign_in_button{
+        padding:7px 10px;
+        width: 90px;
+        height: 43px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 10px;
+        left: 410px;
+        color: white;
+        background: #E50914;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .netflix_title{
+        width: 130px;
+        position: relative;
+        left: 50px;
+    }
+    .home_title{
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        width: 480px;
+    }
+    .title1{
+        font-size: 2rem;
+        color: white;
+        width: 420px;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight: 700;
+    }
+    .title2{
+        font-size: 25px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        left: -20px;
+        top: 20px;
+        width: 600px;
+    }
+    .home_para_title{
+        color: white;
+        font-size:15px;
+        width: 758px;
+        position: relative;
+        top: 37px;
+        left: -70px;
+    }
+    .email_title_home{
+        width: 300px;
+        height: 35px;
+        padding: 7px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        position: relative;
+        top: 70px;
+        left: -60px;
+    }
+    .email_home_btn{
+        padding-top: 2px;
+        width: 170px;
+        height: 37px;
+        position: relative;
+        left: -60px;
+        top: 70px;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        color: white;
+        background-color: #D81F26;
+        cursor: pointer;
+    }
+}

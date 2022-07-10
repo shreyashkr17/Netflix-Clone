@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&display=swap');
+
+.navbar{
+    background-color: black;
+    height: 8vh;
+    display: flex;
+}
+._homepage_navbar1{
+    color: white;
+    font-size:20px;
+    position: relative;
+    left: 500px;
+    font-family: 'Albert Sans', sans-serif;
+}
+.link_to_home,.link_to_home:hover{
+    color: white;
+    text-decoration: none;
+}
+._homepage_navbar2{
+    color: white;
+    font-size:20px;
+    padding-right:25px;
+    font-family: 'Albert Sans', sans-serif; 
+}
+.homepage_logo{
+    width: 110px;
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+.homepage_product{
+    background-color: rgb(40, 40, 40);
+    height: 350vh;
+}
+.movies_title{
+    color: white;
+    font-size: 60px;
+    font-family: 'Anek Latin', sans-serif;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    width: 600px;
+}
+.movies_para1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    width: 628px;
+}
+.row_1_title{
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.container_movie_row1{
+    display: flex;
+    background: transparent;
+    position: relative;
+    top: 150px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_2_title{
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 50px;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.container_movie_row2{
+    display: flex;
+    background: transparent;
+    position: relative;
+    top: 280px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_3_title{
+    color: white;
+    position: relative;
+    top: 390px;
+    left: 50px;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.container_movie_row3{
+    display: flex;
+    background: transparent;
+    position: relative;
+    top: 410px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_4_title{
+    color: white;
+    position: relative;
+    top: 520px;
+    left: 50px;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.container_movie_row4{
+    display: flex;
+    background: transparent;
+    position: relative;
+    top: 540px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_5_title{
+    color: white;
+    position: relative;
+    top: 650px;
+    left: 50px;
+    width: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.container_movie_row5{
+    display: flex;
+    background: transparent;
+    position: relative;
+    top: 670px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_Homepage_movie{
+    background-color: rgb(76, 76, 76);
+    height: 50vh;
+}

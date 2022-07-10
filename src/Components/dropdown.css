@@ -1,0 +1,29 @@
+.position-lang{
+    position: relative;
+    top: -48px;
+    left: 1240px;
+}
+.globe_logo{
+    margin-right: 5px;
+}
+@media screen and (max-width:1200px) {
+    .position-lang{
+        position: relative;
+        top: -48px;
+        left: 860px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .position-lang{
+        position: relative;
+        top: -48px;
+        left: 690px;
+    }
+}
+@media screen and (max-width:700px) {
+    .position-lang{
+        position: relative;
+        top: -40px;
+        left: 390px;
+    }
+}

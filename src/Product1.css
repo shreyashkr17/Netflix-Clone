@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.Product1{
+    background-color: rgb(76, 76, 76);
+    height: 65vh;
+}
+.Product2{
+    background-color: rgb(76, 76, 76);
+    height: 110vh;
+}
+.footer{
+    background-color: rgb(76, 76, 76);
+    height: 66vh;
+    position: relative;
+    top: 340px;
+}
+.black_bg{
+    background-color: black;
+    height: 65vh;
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+.black_bg1{
+    background-color: black;
+    height: 65vh;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+.black_bg2{
+    background-color: black;
+    height: 65vh;
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+.black_bg3{
+    background-color: black;
+    height: 65vh;
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.black_bg1_cont{
+    width: 50%;
+}
+.enjoy_tv{
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    position: relative;
+    top: 130px;
+    left: 210px;
+}
+.download_nfl_banner{
+    width: 500px;
+    position: relative;
+    left: 85px;
+}
+.para_enjoy{
+    color: white;
+    width: 625px;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+    top: 150px;
+    left: 210px;
+}
+.tv_nfl{
+    width: 500px;
+    position: relative;
+    left: 110px;
+    top: -190px;
+}
+.vdo_nfl_1{
+    position: relative;
+    top: 98px;
+    left: 177px;
+    width: 361px;
+    /* left: 150px; */
+}
+.download_ttl{
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    width: 492px;
+    position: relative;
+    top: 130px;
+    left: -50px;
+}
+.download_para_ttl{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    width: 587px;
+    position: relative;
+    top: 150px;
+    left: -50px;
+}
+.wtc_evry{
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    position: relative;
+    top:160px ;
+    left: 213px;
+}
+.para_wtch_evr{
+    color: white;
+    width: 627px;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 180px;
+    left: 213px;
+}
+.vdo_2{
+    width: 330px;
+    position: relative;
+    top: 80px;
+    left: 160px;
+}
+.pc_vdo_img{
+    position: relative;
+    top: -140px;
+    left: 60px;
+    width: 540px;
+}
+
+.children_title_home{
+    width: 500px;
+    position: relative;
+    top: 60px;
+    left: 180px;
+}
+
+.children_ttl{
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    width: 455px;
+    position: relative;
+    top: 130px;
+}
+.para_children_ttl{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    width: 539px;
+    position: relative;
+    top: 150px;
+}
+
+@media screen and (max-width:1200px) {
+    .enjoy_tv{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        position: relative;
+        top: 60px;
+        left: 50px;
+    }
+    .para_enjoy{
+        color: white;
+        width: 615px;
+        font-size: 29px;
+        font-weight: 400;
+        position: relative;
+        top: 90px;
+        left: 50px;
+    }
+    .tv_nfl{
+        width: 400px;
+        position: relative;
+        left: 93px;
+        top: -180px;
+    }
+    .vdo_nfl_1{
+        position: relative;
+        top: 58px;
+        left: 147px;
+        width: 321px;
+        /* left: 150px; */
+    }
+    .download_nfl_banner{
+        width: 380px;
+        position: relative;
+        left: 85px;
+    }
+    .download_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 492px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    .download_para_ttl{
+        color: white;
+        font-size: 29px;
+        font-weight: 400;
+        width: 587px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    .wtc_evry{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        position: relative;
+        top:60px ;
+        left: 50px;
+    }
+    .para_wtch_evr{
+        color: white;
+        width: 607px;
+        font-size: 29px;
+        font-weight: 400;
+        position: relative;
+        top: 90px;
+        left: 50px;
+    }
+    .vdo_2{
+        width: 260px;
+        position: relative;
+        top: 40px;
+        left: 177px;
+    }
+    .pc_vdo_img{
+        position: relative;
+        top: -130px;
+        left: 110px;
+        width: 410px;
+    }
+    .children_title_home{
+        width: 370px;
+        position: relative;
+        top: 30px;
+        left: 120px;
+    }
+    .children_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 455px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+    .para_children_ttl{
+        color: white;
+        font-size: 29px;
+        font-weight: 400;
+        width: 539px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+    .footer{
+        background-color: rgb(76, 76, 76);
+        height: 66vh;
+        position: relative;
+        top: 465px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .enjoy_tv{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        position: relative;
+        top: 60px;
+        left: 50px;
+    }
+    .para_enjoy{
+        color: white;
+        width: 515px;
+        font-size: 25px;
+        font-weight: 400;
+        position: relative;
+        top: 90px;
+        left: 50px;
+    }
+    .tv_nfl{
+        width: 350px;
+        position: relative;
+        left: 94px;
+        top: -145px;
+    }
+    .vdo_nfl_1{
+        position: relative;
+        top: 58px;
+        left: 141px;
+        width: 270px;
+        /* left: 150px; */
+    }
+    .download_nfl_banner{
+        width: 350px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+    .download_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        width: 492px;
+        position: relative;
+        top: 70px;
+        left: -10px;
+    }
+    .download_para_ttl{
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        width: 487px;
+        position: relative;
+        top: 90px;
+        left: -10px;
+    }
+    .wtc_evry{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        position: relative;
+        top:80px ;
+        left: 50px;
+    }
+    .para_wtch_evr{
+        color: white;
+        width: 517px;
+        font-size: 25px;
+        font-weight: 400;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }
+    .vdo_2{
+        width: 250px;
+        position: relative;
+        top: 50px;
+        left: 137px;
+    }
+    .pc_vdo_img{
+        position: relative;
+        top: -110px;
+        left: 70px;
+        width: 390px;
+    }
+    .children_title_home{
+        width: 350px;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    .children_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        width: 455px;
+        position: relative;
+        top: 50px;
+        left: 10px;
+    }
+    .para_children_ttl{
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        width: 479px;
+        position: relative;
+        top: 70px;
+        left: 10px;
+    }
+    .footer{
+        background-color: rgb(76, 76, 76);
+        height: 66vh;
+        position: relative;
+        top: 533px;
+    }
+}
+@media screen and (max-width:700px) {
+    .enjoy_tv{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 27px;
+        font-weight: 600;
+        position: relative;
+        top: 100px;
+        left: 30px;
+    }
+    .para_enjoy{
+        color: white;
+        width: 320px;
+        font-size: 19px;
+        font-weight: 400;
+        position: relative;
+        top: 110px;
+        left: 30px;
+    }
+    .tv_nfl{
+        width: 250px;
+        position: relative;
+        left: 64px;
+        top: -35px;
+    }
+    .vdo_nfl_1{
+        position: relative;
+        top: 112px;
+        left: 98px;
+        width: 180px;
+        /* left: 150px; */
+    }
+    .download_nfl_banner{
+        width: 280px;
+        position: relative;
+        left: 0px;
+        top: 40px;
+    }
+    .download_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 27px;
+        font-weight: 600;
+        width: 392px;
+        position: relative;
+        top: 90px;
+        left: 0px;
+    }
+    .download_para_ttl{
+        color: white;
+        font-size:19px;
+        font-weight: 400;
+        width: 357px;
+        position: relative;
+        top: 110px;
+        left: 0px;
+    }
+    .wtc_evry{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 27px;
+        font-weight: 600;
+        position: relative;
+        top:100px ;
+        left: 30px;
+    }
+    .para_wtch_evr{
+        color: white;
+        width: 317px;
+        font-size: 19px;
+        font-weight: 400;
+        position: relative;
+        top: 120px;
+        left: 30px;
+    }
+    .pc_vdo_img{
+        position: relative;
+        top: -30px;
+        left: 30px;
+        width: 290px;
+    }
+    .vdo_2{
+        width: 190px;
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+    .children_title_home{
+        width: 280px;
+        position: relative;
+        top: 60px;
+        left: 10px;
+    }
+    .children_ttl{
+        color: white;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 27px;
+        font-weight: 600;
+        width: 320px;
+        position: relative;
+        top: 70px;
+        left: 00px;
+    }
+    .para_children_ttl{
+        color: white;
+        font-size: 19px;
+        font-weight: 400;
+        width: 309px;
+        position: relative;
+        top: 90px;
+        left: 00px;
+    }
+    .footer{
+        background-color: rgb(76, 76, 76);
+        height: 66vh;
+        position: relative;
+        top: 623px;
+    }
+}

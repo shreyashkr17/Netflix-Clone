@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container_mov_prod_1{
+    color: white;
+    background: transparent;
+    /* position: relative;
+    top: 70px;
+    margin:0px 50px; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.mov_1_title{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+.mov_1_rate{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+.wtch_now{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+    width: 150px;
+    margin-top: 10px;
+    background-color: #E50914;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    padding: 4px;
+}
+.watch_to,.watch_to:hover{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.login_page{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0)),linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c732cb00-be61-4d64-b8c3-99f022e7a123/eceef24d-4920-430f-988b-d2f48f8ad060/IN-en-20220620-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 123vh;
+}
+.sign_in_container{
+    background-color: rgba(0, 0, 0, 0.718);
+    height: 90vh;
+    width: 470px;
+    margin-top: 30px;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.log_cont_ttl{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+.login_email_page{
+    background-color: rgb(65, 65, 65);
+    padding: 8px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+.login_email_page::placeholder{
+    color: rgb(163, 163, 163);
+    font-family: 'Roboto', sans-serif;
+}
+.login_pwd_page{
+    background-color: rgb(65, 65, 65);
+    padding: 8px;
+    position: relative;
+    top: 110px;
+    left: 60px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+.login_pwd_page::placeholder{
+    color: rgb(163, 163, 163);
+    font-family: 'Roboto', sans-serif;
+}
+.sign_btn_login{
+    width: 350px;
+    height: 50px;
+    padding: 7px;
+    position: relative;
+    background-color: #E50914;
+    color: white;
+    top: 160px;
+    left: 62px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+}
+.remember_need_help{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 166px;
+    justify-content: space-between;
+    margin: 10px 60px;
+}
+.check_box{
+    margin-left: 5px;
+}
+.rem_line_hed{
+    color: rgb(130, 130, 130);
+    margin-left: 5px;
+}
+.help_need,.help_need:hover{
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+}
+
+.sign_up_det{
+    background-color: transparent;
+    height: 130px;
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 65px;
+}
+.line1{
+    color:rgb(130, 130, 130) ;
+}
+.create_link{
+    color: white;
+    text-decoration: none;
+}
+.create_link:hover{
+    color: white;
+    /* text-decoration: underline; */
+}
+.det_para{
+    width: 350px;
+    color: rgb(130, 130, 130);
+}
+.black_log_bg_page{
+    background-color:rgb(76, 76, 76);
+    height: 65vh;
+}
